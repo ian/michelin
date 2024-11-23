@@ -6,7 +6,7 @@ First introduced in 1956 in the modern format.
 
 ### 1950s
 
-- [ ] 1956 - First modern format edition
+- [x] 1956 - First modern format edition
 - [ ] 1957
 - [ ] 1958
 - [ ] 1959

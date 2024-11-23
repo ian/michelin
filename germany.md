@@ -19,7 +19,7 @@ Reintroduced in modern format in 1964 and published annually since.
 - [ ] 1971
 - [ ] 1972
 - [ ] 1973
-- [ ] 1974
+- [x] 1974
 - [ ] 1975
 - [ ] 1976
 - [ ] 1977
