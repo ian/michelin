@@ -5,18 +5,20 @@ First introduced in 1920, France was the first country in the modern Michelin Gu
 ## Collection Checklist
 
 ### 1920s
+
 - [ ] 1920 - Historic relaunch edition
 - [ ] 1921
 - [ ] 1922
 - [ ] 1923
 - [ ] 1924
 - [ ] 1925
-- [ ] 1926
+- [ ] 1926 - First introduction of the star system
 - [ ] 1927
 - [ ] 1928
 - [ ] 1929
 
 ### 1930s
+
 - [ ] 1930
 - [ ] 1931
 - [ ] 1932
@@ -29,6 +31,7 @@ First introduced in 1920, France was the first country in the modern Michelin Gu
 - [ ] 1939 - Last pre-war edition (reprinted for Allied forces)
 
 ### 1940s
+
 - [ ] 1940-1944 (Not published due to WWII)
 - [ ] 1945
 - [ ] 1946
@@ -37,6 +40,7 @@ First introduced in 1920, France was the first country in the modern Michelin Gu
 - [ ] 1949
 
 ### Notes
+
 - Publication was suspended during WWII (1940-1944)
 - The 1939 edition was reprinted for Allied forces
 - The three-star system was introduced in 1933
