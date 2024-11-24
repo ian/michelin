@@ -5,11 +5,7 @@ import Link from "next/link";
 import { Metadata } from "next";
 import MichelinBookshelf from "@/components/MichelinBookshelf";
 
-interface Props {
-  params: { region: string };
-}
-
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
+export async function generateMetadata({ params }): Promise<Metadata> {
   const regionName =
     params.region.charAt(0).toUpperCase() + params.region.slice(1);
 
