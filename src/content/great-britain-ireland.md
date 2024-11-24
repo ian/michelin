@@ -18,7 +18,7 @@ First introduced in 1974 in modern format.
 - [ ] 1980
 - [ ] 1981
 - [ ] 1982
-- [ ] 1983
+- [x] 1983
 - [x] 1984
 - [x] 1985
 - [x] 1986
