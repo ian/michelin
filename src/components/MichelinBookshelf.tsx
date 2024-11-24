@@ -26,7 +26,7 @@ const MichelinBookshelf: React.FC<MichelinBookshelfProps> = ({ content }) => {
               className="absolute bottom-0 w-full h-[95%] bg-red-600 rounded-sm shadow-sm flex items-center justify-center"
               title={book.description}
             >
-              <span className="text-black font-bold text-xs rotate-90 whitespace-nowrap">
+              <span className="text-black font-bold text-xl rotate-90 whitespace-nowrap">
                 {book.year}
               </span>
             </div>
@@ -41,7 +41,7 @@ const MichelinBookshelf: React.FC<MichelinBookshelfProps> = ({ content }) => {
                 }
               )}
             >
-              <span className="text-gray-400 font-bold text-xs rotate-90 whitespace-nowrap">
+              <span className="text-gray-300 font-bold text-xl rotate-90 whitespace-nowrap">
                 {book.year}
               </span>
             </div>
