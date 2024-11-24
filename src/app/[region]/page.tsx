@@ -69,7 +69,7 @@ export default async function RegionPage({ params }) {
     const file = await fs.readFile(filePath, "utf8");
 
     return (
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 pb-20">
         <header className="border-b py-4 mb-8">
           <nav className="grid grid-cols-3 items-center">
             <Link

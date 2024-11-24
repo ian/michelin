@@ -18,7 +18,7 @@ export default async function Page() {
     .map((file) => file.replace(".md", ""));
 
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto pb-20">
       <h1 className="text-4xl font-serif mb-2 capitalize text-center pt-10">
         The Michelin Project
       </h1>
