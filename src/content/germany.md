@@ -43,7 +43,7 @@ Reintroduced in modern format in 1964 and published annually since.
 
 - [ ] 1990
 - [ ] 1991
-- [ ] 1992
+- [x] 1992
 - [ ] 1993
 - [ ] 1994
 - [ ] 1995
