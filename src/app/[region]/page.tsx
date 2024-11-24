@@ -4,13 +4,29 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import MichelinBookshelf from "@/components/MichelinBookshelf";
 
-interface PageProps {
-  params: {
-    region: string;
-  };
+export async function generateStaticParams() {
+  const contentDir = path.join(process.cwd(), "src", "content");
+  const files = await fs.readdir(contentDir);
+
+  const regions = await Promise.all(
+    files
+      .filter((file) => file.endsWith(".md"))
+      .map(async (file) => {
+        const content = await fs.readFile(path.join(contentDir, file), "utf8");
+        const region = file.replace(".md", "");
+        return {
+          region,
+          content,
+        };
+      })
+  );
+
+  return regions.map(({ region }) => ({
+    region,
+  }));
 }
 
-export default async function RegionPage({ params }: PageProps) {
+export default async function RegionPage({ params }) {
   const filePath = path.join(
     process.cwd(),
     "src",
