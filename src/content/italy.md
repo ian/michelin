@@ -35,7 +35,7 @@ First introduced in 1956 in the modern format.
 - [ ] 1986
 - [ ] 1987
 - [ ] 1988
-- [ ] 1989
+- [x] 1989
 
 ### 1990s
 
