@@ -35,13 +35,7 @@ export async function generateStaticParams() {
   }));
 }
 
-interface RegionPageProps {
-  params: {
-    region: string;
-  };
-}
-
-export default async function RegionPage({ params }: RegionPageProps) {
+export default async function RegionPage({ params }) {
   const regions = await getAllRegions();
   const currentIndex = regions.indexOf(params.region);
   const prevRegion =
