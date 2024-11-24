@@ -1,40 +1,36 @@
-# Michelin Guide Collection Tracker
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-This repository tracks my collection of Michelin Red Guide books (hard cover editions) from their reintroduction in 1920 to present.
+## Getting Started
 
-## Collection Overview
+First, run the development server:
 
-| Country/Region | First Publication | Status |
-|---------------|-------------------|--------|
-| France | 1920 | In Progress |
-| Italy | 1956 | In Progress |
-| Germany | 1964 | In Progress |
-| Spain and Portugal | 1973 | In Progress |
-| Great Britain and Ireland | 1974 | In Progress |
-| United States | 2005 | In Progress |
-| Japan | 2007 | In Progress |
-| Hong Kong and Macau | 2008 | In Progress |
-| South Korea | 2016 | In Progress |
-| Canada | 2022 | In Progress |
-| UAE | 2022 | In Progress |
-| Estonia | 2022 | In Progress |
-| Malaysia | 2022 | In Progress |
-| Vietnam | 2022 | In Progress |
-| Israel | 2023 | In Progress |
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## Historical Notes
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- 1920: Relaunch as a paid guide; beginning of consistent annual publication
-- 1933: Introduction of the 3-star system in France
-- 1940-1944: Publication suspended due to WWII (except 1939 France guide reprinted for Allied forces)
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## Directory Structure
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-Each country has its own markdown file with a checklist of editions:
+## Learn More
 
-- `france.md` - Starting from 1920
-- `italy.md` - Starting from 1956
-- `germany.md` - Starting from 1964
-- And so on...
+To learn more about Next.js, take a look at the following resources:
 
-Check individual country files for detailed collection status.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
