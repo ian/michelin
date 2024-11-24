@@ -12,7 +12,18 @@ export default async function Page() {
 
   return (
     <div className="container mx-auto">
-      <h1 className="text-3xl font-bold my-8">Michelin Guide Book Tracker</h1>
+      <h1 className="text-4xl font-serif mb-2 capitalize text-center pt-10">
+        The Michelin Project
+      </h1>
+      <p className="pb-10 pt-5 max-w-xl mx-auto">
+        Our mission is to meticulously gather and showcase the complete
+        collection of Michelin Guide Red Books, spanning decades of culinary
+        excellence and history. Each book represents a unique snapshot of the
+        gastronomic landscape of its time, and together, they form a
+        comprehensive archive of the evolution of fine dining. Join us on this
+        journey as we explore the rich heritage and stories encapsulated within
+        these iconic guides.
+      </p>
       <div className="grid gap-4">
         {regions.map((region) => (
           <Link
