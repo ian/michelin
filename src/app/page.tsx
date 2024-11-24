@@ -1,6 +1,13 @@
 import { promises as fs } from "fs";
 import path from "path";
 import Link from "next/link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "The Michelin Project | Historic Guide Collection",
+  description:
+    "Explore our comprehensive collection of historic Michelin Guide Red Books, documenting decades of culinary excellence and gastronomic evolution worldwide.",
+};
 
 export default async function Page() {
   const contentDir = path.join(process.cwd(), "src", "content");

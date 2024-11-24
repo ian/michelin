@@ -2,7 +2,22 @@ import { promises as fs } from "fs";
 import path from "path";
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import { Metadata } from "next";
 import MichelinBookshelf from "@/components/MichelinBookshelf";
+
+interface Props {
+  params: { region: string };
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const regionName =
+    params.region.charAt(0).toUpperCase() + params.region.slice(1);
+
+  return {
+    title: `${regionName} | The Michelin Project`,
+    description: `Explore historic Michelin Guide Red Books from ${regionName}, showcasing the region's culinary heritage and gastronomic excellence.`,
+  };
+}
 
 async function getAllRegions() {
   const contentDir = path.join(process.cwd(), "src", "content");
