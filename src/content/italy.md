@@ -39,7 +39,7 @@ First introduced in 1956 in the modern format.
 
 ### 1990s
 
-- [ ] 1990
+- [x] 1990
 - [x] 1991
 - [ ] 1992
 - [x] 1993
