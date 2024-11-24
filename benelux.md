@@ -52,7 +52,7 @@ The Michelin Guide for the Benelux region, encompassing Belgium, the Netherlands
 ### 1990s
 
 - [ ] 1990
-- [ ] 1991
+- [x] 1991
 - [ ] 1992
 - [ ] 1993
 - [ ] 1994
