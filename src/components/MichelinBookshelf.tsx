@@ -11,8 +11,8 @@ const MichelinBookshelf: React.FC<MichelinBookshelfProps> = ({ content }) => {
   const firstYear = Number(books[0]?.year);
   const decadeStart = Math.floor(firstYear / 10) * 10;
   const paddingCount = firstYear - decadeStart;
-  const paddingSlots = Array.from({ length: paddingCount }, (_, i) => ({
-    year: decadeStart + i,
+  const paddingSlots = Array.from({ length: paddingCount }, () => ({
+    year: null,
     collected: false,
     description: "",
   }));
@@ -35,7 +35,9 @@ const MichelinBookshelf: React.FC<MichelinBookshelfProps> = ({ content }) => {
               className={clsx(
                 "absolute bottom-0 w-full h-[95%] border border-dashed border-gray-300 rounded-sm flex items-center justify-center",
                 {
-                  "opacity-0": book.year >= 1940 && book.year <= 1944,
+                  "opacity-0":
+                    book.year === null ||
+                    (book.year >= 1940 && book.year <= 1944),
                 }
               )}
             >
