@@ -10,6 +10,32 @@ First introduced in 1920, France was the first country in the modern Michelin Gu
 
 ## Collection Checklist
 
+### 1900s
+
+- [ ] 1900 - First Michelin Guide ever published
+- [ ] 1901
+- [ ] 1902
+- [ ] 1903
+- [ ] 1904
+- [ ] 1905
+- [ ] 1906 - First introduction of the star system
+- [ ] 1907
+- [ ] 1908
+- [ ] 1909
+
+### 1910s
+
+- [ ] 1910 - Historic relaunch edition
+- [ ] 1911
+- [ ] 1912
+- [ ] 1913
+- [ ] 1914
+- [ ] 1915
+- [ ] 1916 - First introduction of the star system
+- [ ] 1917
+- [ ] 1918
+- [ ] 1919
+
 ### 1920s
 
 - [ ] 1920 - Historic relaunch edition
