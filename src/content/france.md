@@ -39,7 +39,6 @@ First introduced in 1920, France was the first country in the modern Michelin Gu
 
 ### 1940s
 
-- [ ] 1940 (Not published due to WWII)
 - [ ] 1941 (Not published due to WWII)
 - [ ] 1942 (Not published due to WWII)
 - [ ] 1943 (Not published due to WWII)
