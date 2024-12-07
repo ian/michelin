@@ -42,7 +42,7 @@ const MichelinBookshelf: React.FC<MichelinBookshelfProps> = ({ content }) => {
               className={clsx(
                 "absolute bottom-0 w-full h-[95%] border border-dashed  rounded-sm flex items-center justify-center",
                 {
-                  "border-gray-300 text-gray-300": !book.special,
+                  "border-red-300 text-red-100": !book.special,
                   "border-[#AD7746] text-[#AD7746] opacity-50 bg-[#AD7746]/20":
                     book.special,
                   "opacity-0":
