@@ -15,6 +15,7 @@ const MichelinBookshelf: React.FC<MichelinBookshelfProps> = ({ content }) => {
     year: null,
     collected: false,
     description: "",
+    special: false,
   }));
 
   return (
@@ -23,7 +24,13 @@ const MichelinBookshelf: React.FC<MichelinBookshelfProps> = ({ content }) => {
         <div key={index} className="w-full h-40 relative">
           {book.collected ? (
             <div
-              className="absolute bottom-0 w-full h-[95%] bg-red-600 rounded-sm shadow-sm flex items-center justify-center"
+              className={clsx(
+                "absolute bottom-0 w-full h-[95%]  rounded-sm shadow-sm flex items-center justify-center",
+                {
+                  "bg-red-600": !book.special,
+                  "bg-blue-600": book.special,
+                }
+              )}
               title={book.description}
             >
               <span className="text-black font-bold text-xl rotate-90 whitespace-nowrap">
@@ -33,15 +40,18 @@ const MichelinBookshelf: React.FC<MichelinBookshelfProps> = ({ content }) => {
           ) : (
             <div
               className={clsx(
-                "absolute bottom-0 w-full h-[95%] border border-dashed border-gray-300 rounded-sm flex items-center justify-center",
+                "absolute bottom-0 w-full h-[95%] border border-dashed  rounded-sm flex items-center justify-center",
                 {
+                  "border-gray-300 text-gray-300": !book.special,
+                  "border-[#AD7746] text-[#AD7746] opacity-50 bg-[#AD7746]/20":
+                    book.special,
                   "opacity-0":
                     book.year === null ||
                     (book.year >= 1940 && book.year <= 1944),
                 }
               )}
             >
-              <span className="text-gray-300 font-bold text-xl rotate-90 whitespace-nowrap">
+              <span className=" font-bold text-xl rotate-90 whitespace-nowrap">
                 {book.year}
               </span>
             </div>

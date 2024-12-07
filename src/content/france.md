@@ -35,6 +35,7 @@ First introduced in 1920, France was the first country in the modern Michelin Gu
 - [ ] 1937
 - [ ] 1938
 - [ ] 1939 - Last pre-war edition (reprinted for Allied forces)
+- [ ] 1939X - Special edition for Allied forces
 
 ### 1940s
 
