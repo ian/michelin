@@ -31,7 +31,7 @@ Reintroduced in modern format in 1964 and published annually since.
 - [ ] 1980
 - [ ] 1981
 - [ ] 1982
-- [ ] 1983
+- [x] 1983
 - [ ] 1984
 - [ ] 1985
 - [ ] 1986

@@ -17,7 +17,7 @@ First introduced in 1956 in the modern format.
 - [ ] 1961
 - [ ] 1962
 - [ ] 1963
-- [ ] 1964
+- [x] 1964
 - [ ] 1965
 - [ ] 1966
 - [ ] 1967

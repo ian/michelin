@@ -6,7 +6,7 @@ The Michelin Guide for the Benelux region, encompassing Belgium, the Netherlands
 
 ### 1950s
 
-- [x] 1957 - First combined Benelux edition
+- [ ] 1957 - First combined Benelux edition
 - [ ] 1958
 - [ ] 1959
 
