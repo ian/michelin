@@ -22,7 +22,7 @@ First introduced in 1956 in the modern format.
 - [ ] 1966
 - [ ] 1967
 - [ ] 1968
-- [x] 1969
+- [ ] 1969
 
 ### 1980s
 
