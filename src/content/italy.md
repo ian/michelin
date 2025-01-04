@@ -43,7 +43,7 @@ First introduced in 1956 in the modern format.
 - [x] 1991
 - [ ] 1992
 - [x] 1993
-- [ ] 1994
+- [x] 1994
 - [ ] 1995
 - [ ] 1996
 - [ ] 1997
