@@ -98,7 +98,7 @@ export default async function RegionPage({ params }) {
         <h1 className="text-4xl font-serif mb-2 capitalize text-center">
           {params.region}
         </h1>
-        <MichelinBookshelf content={file} country={params.region as any} />
+        <MichelinBookshelf content={file} country={params.region} />
       </div>
     );
   } catch {
