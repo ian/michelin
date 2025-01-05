@@ -1,11 +1,13 @@
 import React from "react";
-import { parseMarkdown } from "../lib/parseMarkdown";
+import { Book, parseMarkdown } from "../lib/parseMarkdown";
 import clsx from "clsx";
 import { cn } from "@/lib/utils";
 
-type Country = 'france' | 'benelux' | 'switzerland' | 'spain-portugal' | 'italy' | 'germany' | 'great-britain-ireland';
+type Country = 'france' | 'benelux' | 'switzerland' | 'spain' | "portugal" | 'italy' | 'germany' | 'great-britain' | "ireland"
 
-const getBookColors = (country: Country, year: number, collected?: boolean): string => {
+const getBookColors = (country: Country, book: Book): string => {
+  const { year, collected } = book;
+
   const modernColors = cn(
     "bg-[#C1002C] text-[#000]", 
     collected  ? "bg-red-600 text-black" : "bg-transparent  border-2 border-dashed border-opacity-50 bg-opacity-10 border-red-300 text-[#C1002C]"
@@ -13,10 +15,12 @@ const getBookColors = (country: Country, year: number, collected?: boolean): str
 
   switch (country) {
     case 'france':
-      if (year < 1950) {
-        return ""
+      if (book.special) {
+        // 1939 was a special year printed by the alies for WW2
+        return "border-[#AD7746] text-[#AD7746] opacity-50 bg-[#AD7746]/20"
       }
-      break;
+
+      return modernColors
 
     case 'benelux':
       if (year <= 1958) {
@@ -28,18 +32,65 @@ const getBookColors = (country: Country, year: number, collected?: boolean): str
       }
       break;
 
+    case 'great-britain': 
+      if (year <= 1930) {
+        return cn(
+          'border-countries-ireland bg-countries-ireland',
+          collected ? "text-black" : "bg-transparent border-2 border-dashed border-opacity-50 bg-opacity-10 text-countries-ireland"
+        )
+        
+      }
+      break;      
+
+    case 'ireland':
+      if (year <= 1925) {
+        return cn(
+          'border-countries-ireland bg-countries-ireland',
+          collected ? "text-black" : "bg-transparent border-2 border-dashed border-opacity-50 bg-opacity-10 text-countries-ireland"
+        )
+        
+      }
+      break;      
+
+    case 'germany':
+        if (year <= 1958) {
+          return cn(
+            'border-countries-germany bg-countries-germany',
+            collected ? "text-black" : "bg-transparent border-2 border-dashed border-opacity-50 bg-opacity-10 text-countries-germany"
+          )
+          
+        }
+        break;
+
+    case 'portugal':
+        if (year <= 1913) {
+          return cn(
+            'border-countries-portugal bg-countries-portugal',
+            collected ? "text-black" : "bg-transparent border-2 border-dashed border-opacity-50 bg-opacity-10 text-countries-portugal"
+          )
+          
+        }
+        break;
+
+    case 'spain':
+          if (year <= 1958) {
+            return cn(
+              'border-countries-spain bg-countries-spain',
+              collected ? "text-black" : "bg-transparent border-2 border-dashed border-opacity-50 bg-opacity-10 text-countries-spain"
+            )
+          }
+          break;
+    
     case 'switzerland':
-      if (year < 1955) {
-        return ""
+      if (year < 1932) {
+        return cn(
+          'border-countries-switzerland bg-countries-switzerland',
+          collected ? "text-black" : "bg-transparent border-2 border-dashed border-opacity-50 bg-opacity-10 text-countries-switzerland"
+        )
       }
       break;
 
-    case 'spain-portugal':
-      if (year < 1973) {
-        return ""
-      }
-      break;
-
+    
     // Add other countries as needed
   }
 
@@ -66,7 +117,7 @@ const MichelinBookshelf: React.FC<MichelinBookshelfProps> = ({ content, country 
   return (
     <div className="grid grid-cols-10 gap-1">
       {[...paddingSlots, ...books].map((book, index) => {
-        const className = book.year ? getBookColors(country, Number(book.year), book.collected) : null;
+        const className = book.year ? getBookColors(country, book) : null;
 
         console.log({
           country,

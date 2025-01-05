@@ -16,7 +16,7 @@ The Michelin Guide for Switzerland has a rich history dating back to the early 1
 
 ### 1920s
 
-- [ ] 1926
+- [x] 1926
 
 ### 1930s
 

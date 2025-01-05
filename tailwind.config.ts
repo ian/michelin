@@ -52,6 +52,14 @@ export default {
   			},
 				countries: {
 					"benelux": "#D37540",
+					"switzerland": "#576739",
+					"france": "#C1002C",
+					"spain": "#BF801C",
+					"italy": "#C1002C",
+					"ireland": "#6E8B92",
+					"germany": "#505F76",
+					"great-britain": "#434F7D",
+					"portugal": "#7A6A51",
 					"modern": "#C1002C"
 				}
   		},
