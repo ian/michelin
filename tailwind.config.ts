@@ -49,7 +49,19 @@ export default {
   				'3': 'hsl(var(--chart-3))',
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
-  			}
+  			},
+				countries: {
+					"benelux": "#D37540",
+					"switzerland": "#576739",
+					"france": "#C1002C",
+					"spain": "#BF801C",
+					"italy": "#C1002C",
+					"ireland": "#6E8B92",
+					"germany": "#505F76",
+					"great-britain": "#434F7D",
+					"portugal": "#7A6A51",
+					"modern": "#C1002C"
+				}
   		},
   		borderRadius: {
   			lg: 'var(--radius)',
