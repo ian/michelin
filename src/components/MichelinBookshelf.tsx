@@ -141,12 +141,6 @@ const MichelinBookshelf: React.FC<MichelinBookshelfProps> = ({
       {[...paddingSlots, ...books].map((book, index) => {
         const className = book.year ? getBookColors(country, book) : null;
 
-        console.log({
-          country,
-          year: book.year,
-          className,
-        });
-
         return (
           <div key={index} className="w-full h-40 relative">
             <div
