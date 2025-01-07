@@ -17,7 +17,7 @@ Reintroduced in modern format in 1964 and published annually since.
 
 - [ ] 1964 - First modern format edition
 - [ ] 1965
-- [ ] 1966
+- [x] 1966
 - [ ] 1967
 - [ ] 1968
 - [ ] 1969
