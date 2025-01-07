@@ -121,7 +121,7 @@ interface MichelinBookshelfProps {
   country: Country;
 }
 
-const MichelinBookshelf: React.FC<MichelinBookshelfProps> = ({
+export const MichelinBookshelf: React.FC<MichelinBookshelfProps> = ({
   content,
   country,
 }) => {
@@ -166,5 +166,3 @@ const MichelinBookshelf: React.FC<MichelinBookshelfProps> = ({
     </div>
   );
 };
-
-export default MichelinBookshelf;
