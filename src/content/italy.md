@@ -57,7 +57,7 @@ First introduced in 1956 in the modern format.
 - [ ] 1992
 - [x] 1993
 - [x] 1994
-- [ ] 1995
+- [x] 1995
 - [ ] 1996
 - [ ] 1997
 - [ ] 1998
