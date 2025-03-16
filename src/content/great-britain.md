@@ -6,7 +6,7 @@ The Michelin Guide for Great Britain has a rich history dating back to 1911.
 
 ### 1910s
 
-- [ ] 1911
+- [x] 1911
 - [ ] 1912
 - [ ] 1913
 - [ ] 1914
