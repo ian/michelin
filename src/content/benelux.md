@@ -43,7 +43,7 @@ The Michelin Guide for the Benelux region, encompassing Belgium, the Netherlands
 ### 1960s
 
 - [ ] 1960
-- [ ] 1961
+- [x] 1961
 - [ ] 1962
 - [ ] 1963
 - [ ] 1964
