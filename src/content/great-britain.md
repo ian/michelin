@@ -49,7 +49,7 @@ The Michelin Guide for Great Britain has a rich history dating back to 1911.
 ### 1990s
 
 - [ ] 1990
-- [ ] 1991
+- [x] 1991
 - [ ] 1992
 - [x] 1993
 - [ ] 1994
