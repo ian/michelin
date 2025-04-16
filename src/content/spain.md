@@ -76,7 +76,7 @@ First introduced in 1973 as a combined guide for both countries, published annua
 
 - [ ] 1990
 - [ ] 1991
-- [ ] 1992
+- [x] 1992
 - [ ] 1993
 - [ ] 1994
 - [ ] 1995
