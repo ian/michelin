@@ -25,7 +25,7 @@ The Michelin Guide for Switzerland has a rich history dating back to the early 1
 ### 1990s
 
 - [x] 1994
-- [ ] 1995
+- [x] 1995
 - [ ] 1996
 - [ ] 1997
 - [ ] 1998
