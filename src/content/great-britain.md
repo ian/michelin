@@ -57,7 +57,7 @@ The Michelin Guide for Great Britain has a rich history dating back to 1911.
 - [x] 1996
 - [ ] 1997
 - [ ] 1998
-- [ ] 1999
+- [x] 1999
 
 ### 2000
 
