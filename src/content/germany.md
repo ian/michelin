@@ -56,7 +56,7 @@ Reintroduced in modern format in 1964 and published annually since.
 - [ ] 1993
 - [ ] 1994
 - [ ] 1995
-- [ ] 1996
+- [x] 1996
 - [ ] 1997
 - [ ] 1998
 - [ ] 1999
