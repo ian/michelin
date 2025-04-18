@@ -26,7 +26,7 @@ First introduced in 1956 in the modern format.
 
 ### 1970s
 
-- [ ] 1980
+- [ ] 1970
 - [ ] 1971
 - [ ] 1972
 - [ ] 1973
@@ -44,7 +44,7 @@ First introduced in 1956 in the modern format.
 - [ ] 1982
 - [ ] 1983
 - [ ] 1984
-- [ ] 1985
+- [x] 1985
 - [ ] 1986
 - [ ] 1987
 - [ ] 1988
