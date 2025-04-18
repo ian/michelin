@@ -61,4 +61,4 @@ First introduced in 1956 in the modern format.
 - [ ] 1996
 - [ ] 1997
 - [ ] 1998
-- [ ] 1999
+- [x] 1999
