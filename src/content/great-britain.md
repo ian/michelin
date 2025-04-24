@@ -13,7 +13,7 @@ The Michelin Guide for Great Britain has a rich history dating back to 1911.
 
 ### 1920s
 
-- [ ] 1920 - Fifth Year
+- [x] 1920 - Fifth Year
 - [ ] 1922 - Sixth Year
 - [ ] 1923 - Seventh Year
 - [x] 1925 - 8th Edition
