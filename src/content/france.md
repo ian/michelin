@@ -112,7 +112,7 @@ First introduced in 1920, France was the first country in the modern Michelin Gu
 - [x] 1976
 - [x] 1977
 - [x] 1978
-- [ ] 1979
+- [x] 1979
 
 ### 1980s
 
