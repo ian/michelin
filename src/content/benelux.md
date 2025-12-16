@@ -27,7 +27,7 @@ The Michelin Guide for the Benelux region, encompassing Belgium, the Netherlands
 
 - [ ] 1930
 - [ ] 1932-1933
-- [ ] 1934-1935
+- [x] 1934-1935
 - [ ] 1936-1937
 - [ ] 1938-1939
 
